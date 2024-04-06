@@ -17,6 +17,7 @@ env:
 
 includes:
   ansible: .taskfiles/Ansible/Taskfile.yaml
+  cluster: .taskfiles/ClusterTasks.yml
 
 tasks:
 
