@@ -1,0 +1,11 @@
+---
+kubernetes:
+  vars:
+    ansible_user: cmocan
+    ansible_ssh_port: 22
+  children:
+    controllers:
+      hosts:
+        tf-managed-vm1:
+          ansible_host: 4.223.152.84
+

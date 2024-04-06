@@ -1,0 +1,8 @@
+---
+k3s_become: true
+k3s_install_hard_links: true
+k3s_registration_address: 10.0.1.4
+k3s_release_version: "v1.29.2+k3s1"
+k3s_server_manifests_templates:
+  - custom-cilium-helmchart.yaml.j2
+k3s_use_unsupported_config: true
