@@ -39,7 +39,7 @@ spec:
       service:
         annotations:
           io.cilium/lb-ipam-ips: "${NIGNX_INGRESS_IP}"
-        externalTrafficPolicy: Local
+        externalTrafficPolicy: Cluster
       publishService:
         enabled: true
       ingressClassResource:
