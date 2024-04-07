@@ -7,5 +7,5 @@ kubernetes:
     controllers:
       hosts:
         tf-managed-vm1:
-          ansible_host: 4.223.152.84
+          ansible_host: 10.0.1.4
 

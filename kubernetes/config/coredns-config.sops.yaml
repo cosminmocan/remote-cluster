@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: coredns
+    namespace: kube-system
+data:
+    Corefile: ENC[AES256_GCM,data:kpBYHx6Zm/aWoigFKWJcub9KdG961QHKZB4eXaCu/gX+XHdpJzWHVDpeCkId+DqUfzfANF9v4zl/JHduuE+TnMyuIh2BghMq16xcA3lJiWZwXswwadXaarHRdaCYdquIQH6/afUfUoz3M92iUX6+5i/mLiOSlFOjjB+MjsI+lntv1XrHzi8DFuSfNL1KPQlYmj8OM6OU5rmUrPqs3BvPpf9Ioe6BGW+Qa1ROf4RFZd1+e3GWmri3VTxzyX+HGSfRk2TMQkzcwnT2mWr0AiajlUzP2xeLv9h0J91LM79CSyxovsST12uxnoyY4AsbdJmTfpu17GlseKMWdMr0FtcXkK1xrW3qUlsgnffd2LWpzscxnFXymhv2x5IvtN36SDY9N3PLOuDPDmaiRuqK16oVWCX5kCZnaNtEHx66PHHpzyzd0s4rf5fLNqDRv+fOob59sNLN297ASDfctrJjL1+2dgW9o1aKQRhGqAQgvUGl9rCd2vjoSIKvnMOztBfVq822lFHXYolyzV9BYHekKJGWZIRihG6S/ID4RXDhq2yCb2MsQA==,iv:ThLKAtBcGN+CPZukAebZ7S9C+mpQB3hi5Q3eyZrHmcw=,tag:joweFQ6QMEQnH0ieagmt/Q==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1kafyrfhgzqu734zkma2z7tvgq0acylaxylmurlgen77306usqghs254h8y
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBiSGJZQXhiMm1BQ2toTjRu
+            MkFxU3ZZeW9uZ3NiTTNRZkxsNWNqM0FyWEhFCmZxRU9hWnBLOW9hVENJdlhlbnJx
+            Zlp6cmh0RTJidVNYMkh6cVQvTk9pakUKLS0tIC9tSTZlU2ZYV05nUjVmN3ZRcU1w
+            c0U2QkJKc20ydUZ0Q0VCZXVOWVFObHMKBSHdvPQmn0dUWBlJzLSr3HD8bOfwPcNw
+            dw1oMaEJvQrLU/ppgYNO5JAHOtN2cX3A/1UFCdzUWw2rauLoRlLDkw==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-04-07T17:57:47Z"
+    mac: ENC[AES256_GCM,data:MxtRtlGzeNnKApy1dDsvMQpO4/Qis0m2d/EDdhssQ0ONqlWD/ORKWIJWUTGRZgWkdSJcK3TUbhEAqM9I2A6AkFTGdYLOkQNAp6VlCurmBWqKpzSCAcKzyZsZvOdHFMKtFD8DWAU3Fzq/jq0rOGnMje0Wa4blfIbb4a+jOJ7kF/o=,iv:UxwwHZ4Rd2NselaPm4etNOdIsADq451RY0CRnxKEdbo=,tag:6LeOgLPkhY1BC2x/nUGFtQ==,type:str]
+    pgp: []
+    encrypted_regex: ^(data|stringData)$
+    version: 3.8.1

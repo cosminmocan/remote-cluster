@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cluster-settings
+  namespace: flux-system
+data:
+  TIMEZONE: Europe/Bucharest
+  NIGNX_INGRESS_IP: "10.0.1.211"
+  K8S_GATEWAY_IP: "10.0.1.200"
